@@ -1,5 +1,4 @@
-/* Hipnouma Webfont CSS - Hosted on GitHub Pages */
-
+/* === Hipnouma Webfont from GitHub Pages === */
 @font-face {
   font-family: 'Hipnouma';
   src: url('https://IsabellF.github.io/hipnouma-font/Hipnouma.woff2') format('woff2'),
@@ -9,7 +8,50 @@
   font-display: swap;
 }
 
-/* Utility class for using Hipnouma font */
-.hipnouma {
+/* === Base Font Utility === */
+.font-hipnouma {
   font-family: 'Hipnouma', serif;
+}
+
+/* === Headings === */
+
+/* H1 — Huge Title (desktop) */
+.font-hipnouma-h1 {
+  font-family: 'Hipnouma', serif;
+  font-size: 220px;
+  line-height: 1;
+  font-weight: normal;
+  letter-spacing: -2px;
+}
+
+/* H2 — Subheading */
+.font-hipnouma-h2 {
+  font-family: 'Hipnouma', serif;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+/* H3 — Optional Smaller Heading */
+.font-hipnouma-h3 {
+  font-family: 'Hipnouma', serif;
+  font-size: 32px;
+  line-height: 1.3;
+  font-weight: normal;
+}
+
+/* === Responsive Font Sizes === */
+@media (max-width: 768px) {
+  .font-hipnouma-h1 {
+    font-size: 80px;
+    letter-spacing: -1px;
+  }
+
+  .font-hipnouma-h2 {
+    font-size: 36px;
+  }
+
+  .font-hipnouma-h3 {
+    font-size: 24px;
+  }
 }
