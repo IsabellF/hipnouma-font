@@ -1,12 +1,15 @@
+/* Hipnouma Webfont CSS - Hosted on GitHub Pages */
+
 @font-face {
-  font-family: "Hipnouma";
-  src: url("Hipnouma.woff2") format("woff2"),
-    url("Hipnouma.woff") format("woff");
+  font-family: 'Hipnouma';
+  src: url('https://your-username.github.io/hipnouma-font/Hipnouma.woff2') format('woff2'),
+       url('https://your-username.github.io/hipnouma-font/Hipnouma.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+/* Utility class for using Hipnouma font */
 .hipnouma {
-  font-family: "Hipnouma", serif;
+  font-family: 'Hipnouma', serif;
 }
